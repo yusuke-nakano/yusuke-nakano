@@ -1,0 +1,27 @@
+import java.time.LocalDate;
+
+
+public class 今日の運勢 {
+
+	public static void main(String[] args) {
+		LocalDate todayDate = LocalDate.now();
+		System.out.println("今日は"+todayDate+" 今日のあなたは!!");
+
+		 long a;
+		   a=(int)Math.floor(Math.random()* 5);
+
+		   if(a == 0){
+			   System.out.println("シンプルに考えれば物事は好転!ラッキーカラーはオレンジです");
+		   }else if(a == 1){
+			   System.out.println("大きな買い物は控えて。後悔してしまいそうな予感。ラッキーカラーはゴールドです");
+		   }else if(a == 2){
+			   System.out.println("感覚が研ぎ澄まされアイデアあふれる日！積極的に発信してみて。ラッキーカラーはむらさきです");
+		   }else if(a == 3){
+			   System.out.println("周りに流されず自分の意見は伝えよう。ラッキーカラーはシルバーです");
+		   }else if(a == 4){
+			   System.out.println("失敗しても諦めずに挑戦を。ラッキーカラーはピンクです");
+		   }else if(a == 5){
+			   System.out.println("深呼吸して取り組めば何でも解決。ラッキーカラーは黒です");
+		   }
+	}
+}
